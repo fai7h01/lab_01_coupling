@@ -1,4 +1,4 @@
-package com.cydeo.tightly;
+package com.cydeo.my_solution.tightly;
 
 import java.math.BigDecimal;
 

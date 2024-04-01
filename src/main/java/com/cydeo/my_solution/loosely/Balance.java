@@ -1,4 +1,4 @@
-package com.cydeo.loosely;
+package com.cydeo.my_solution.loosely;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
