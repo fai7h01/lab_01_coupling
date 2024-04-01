@@ -6,9 +6,9 @@ public class BalanceServiceImpl implements BalanceService{
 
     @Override
     public boolean checkout(Balance balance, BigDecimal amount) {
-        BigDecimal cBalanceAmount = balance.getAmount();
-        if (cBalanceAmount.subtract(amount).compareTo(BigDecimal.ZERO) >= 0){
-            balance.setAmount(cBalanceAmount.subtract(amount));
+        BigDecimal balanceAmount = balance.getAmount();
+        if (balanceAmount.subtract(amount).compareTo(BigDecimal.ZERO) >= 0){
+            balance.setAmount(balanceAmount.subtract(amount));
             return true;
         }
         return false;
